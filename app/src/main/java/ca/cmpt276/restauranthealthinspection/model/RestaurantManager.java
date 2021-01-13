@@ -44,7 +44,6 @@ public class RestaurantManager implements Iterable<Restaurant> {
     public static RestaurantManager getInstance(Context context) {
 
         if (instance == null) {
-            Log.i(TAG, "getInstance: Starting to parse data....");
             instance = new RestaurantManager();
             InputStreamReader inspectionDataReader = null;
             InputStreamReader restaurantDataReader = null;
@@ -74,6 +73,7 @@ public class RestaurantManager implements Iterable<Restaurant> {
                 originalFile = true;
             }
 
+            Log.i(TAG, "getInstance: Starting to parse data....");
             try {
                 Parser.parseData(instance, inspectionDataReader, restaurantDataReader, originalFile);
                 Log.i("Parse success", "Successfully parsed csv data.");
