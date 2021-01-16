@@ -33,7 +33,7 @@ An Android app that allows users to browse restaurant inspection report history 
 After cloning or downloading the project, open it up in Android Studio. Gradle will then be imported and the building will start.
 
 ## Usage
-## General
+### General
 * The toolbar allows for you to search or filter for restaurants.
 * Navigate between the map and the list of restaurants using the overflow menu.
 
