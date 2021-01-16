@@ -7,15 +7,8 @@ An Android app that allows users to browse restaurant inspection report history 
 
 <p align="left">
   <img src="https://github.com/icextreme/eatsafe/blob/master/images/Map.png" height="380" width="199"/>
-</p>
-
-<p align="center">
   <img src="https://github.com/icextreme/eatsafe/blob/master/images/List.png" height="380" width="199"/>
   <img src="https://github.com/icextreme/eatsafe/blob/master/images/Welcome.png" height="380" width="199"/>
-  <img src="https://github.com/icextreme/eatsafe/blob/master/images/Inspections.png" height="380" width="199"/>
-</p>
-
-<p align="right">
   <img src="https://github.com/icextreme/eatsafe/blob/master/images/Violations.png" height="380" width="199"/>
 </p>
 
